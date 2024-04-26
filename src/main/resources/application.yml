@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: case study
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+
+  sql:
+    init:
+      mode: always # Default for H2
+
+  freemarker:
+    suffix: .ftl
+    # Somewhat experimental, see pom.xml for further explanation on dependency "freemarker-java8"
+    settings:
+      object_wrapper: no.api.freemarker.java8.Java8ObjectWrapper(Configuration.VERSION_2_3_31)
+
+case-study:
+  title: DIN Media - Case Study - Spring Boot mit Freemarker
