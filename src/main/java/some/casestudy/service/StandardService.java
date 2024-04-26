@@ -1,7 +1,7 @@
-package de.dinmedia.casestudy.service;
+package some.casestudy.service;
 
-import de.dinmedia.casestudy.domain.Standard;
-import de.dinmedia.casestudy.repository.StandardRepository;
+import some.casestudy.domain.Standard;
+import some.casestudy.repository.StandardRepository;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 

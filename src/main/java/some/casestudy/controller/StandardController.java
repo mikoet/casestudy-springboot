@@ -1,7 +1,7 @@
-package de.dinmedia.casestudy.controller;
+package some.casestudy.controller;
 
-import de.dinmedia.casestudy.domain.Standard;
-import de.dinmedia.casestudy.service.StandardService;
+import some.casestudy.domain.Standard;
+import some.casestudy.service.StandardService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

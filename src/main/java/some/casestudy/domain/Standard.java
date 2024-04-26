@@ -1,4 +1,4 @@
-package de.dinmedia.casestudy.domain;
+package some.casestudy.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
